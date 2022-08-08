@@ -17,6 +17,10 @@ button {
     background: transparent;
 }
 
+button:hover {
+    color: #8A73C5;
+}
+
 .s1 {
     font-size: 20px;
     font-weight: 400;
@@ -72,7 +76,6 @@ button {
 .main_menu li {
     list-style: none;
     position: relative;
-    
 }
 
 .buttons_menu {
@@ -119,6 +122,11 @@ button {
     text-shadow: none;
     color: #F6F1F8;
     background: radial-gradient(#8A73C5 0%, #A797D0 67.24%, #C4BBDB 100%)
+}
+
+.page-button:hover {
+    color: #515050;
+    background: #FFDDDB;
 }
 
 .bottle-image {
@@ -284,7 +292,22 @@ button {
     gap: 30px
 }
 
-.flex-cont p {
+.tel {
+    color: #6C6867;
     margin: 0;
     font-size: 20px;
+}
+
+.flex-cont button {
+    margin: 0;
+    text-shadow: none;
+    font-size: 20px;
+}
+
+.owl-prev:hover img {
+    src: url("../img/left_hover.png");
+}
+
+.owl-next:hover img {
+    src: url("../img/right_hover.png");
 }
