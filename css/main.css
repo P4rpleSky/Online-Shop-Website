@@ -13,7 +13,6 @@ button {
     font-weight: 400;
     font-size: 20px;
     color: #6C6867;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: transparent;
 }
 
@@ -166,10 +165,8 @@ button:hover {
 }
 
 .brand-container__logo {
-    display : flex;
-    justify-content: center;
-    align-items : center;
-    color: #6C6867;
+    padding-left: 94px;
+    padding-top: 50px;
     width: 440px;
     height: 170px;
     font-weight: 422;
@@ -300,14 +297,4 @@ button:hover {
 
 .flex-cont button {
     margin: 0;
-    text-shadow: none;
-    font-size: 20px;
-}
-
-.owl-prev:hover img {
-    src: url("../img/left_hover.png");
-}
-
-.owl-next:hover img {
-    src: url("../img/right_hover.png");
 }

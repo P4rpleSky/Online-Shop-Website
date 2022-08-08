@@ -4,7 +4,7 @@ $(function() {
         margin:39,
         dots:false,
         nav:true,
-        navText: [ '<img src="img/left.png">', '<img src="img/right.png">' ],
+        navText: [ '', '' ],
         responsive:{
             0:{
                 items:1

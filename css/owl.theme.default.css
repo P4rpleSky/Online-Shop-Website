@@ -12,6 +12,8 @@
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-nav [class*='owl-'] {
     color: #FFF;
+    height: 48px;
+    width: 48px;
     font-size: 14px;
     margin: 5px;
     padding: 4px 7px;
@@ -20,9 +22,17 @@
     cursor: pointer;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #869791;
+      background: transparent;
       color: #FFF;
       text-decoration: none; }
+    .owl-theme .owl-nav .owl-next {
+      background: url("../img/right.png"); }
+    .owl-theme .owl-nav .owl-prev {
+      background: url("../img/left.png"); }
+    .owl-theme .owl-nav .owl-next:hover {
+      background: url("../img/right_hover.png"); }
+    .owl-theme .owl-nav .owl-prev:hover {
+      background: url("../img/left_hover.png"); }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }
