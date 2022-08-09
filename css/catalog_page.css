@@ -116,7 +116,7 @@ button:hover {
 }
 
 .main-block {
-    height: 1200px;
+    height: 980px;
     background-color: #FFFFFF;
 }
 
@@ -234,7 +234,28 @@ button:hover {
     background-image: url("../img/2_4.png");
 }
 
+#show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.page-button {
+    width: 280px;
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: none;
+    color: #F6F1F8;
+    background: #8A73C5
+}
+
+.page-button:hover {
+    color: #515050;
+    background: #FFDDDB;
+}
 
 
 
