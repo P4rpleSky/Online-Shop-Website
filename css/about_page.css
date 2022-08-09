@@ -23,17 +23,7 @@ button:hover {
 .s1 {
     font-size: 20px;
     font-weight: 400;
-}
-
-.s2 {
-    font-size: 14px;
-    font-weight: regular;
-}
-
-.s3 {
-    font-size: 12px;
     margin-bottom: 0;
-    font-weight: lighter;
 }
 
 .logo {
@@ -93,8 +83,34 @@ button:hover {
     background: #FFE0ED;
 }
 
+.center-flex {
+    display: flex;
+    justify-content: center;
+}
 
+.about-us__left {
+    width: 440px;
+    margin-top: 104px;
+}
 
+.about-us__title {
+    font-weight: 629;
+    font-size: 45;
+    margin-bottom: 20px;
+}
+
+.left-image {
+    margin-top: 20px;
+}
+
+.about-us__right {
+    width: 440px;
+    margin-top: 151px;
+}
+
+.right-image {
+    margin-bottom: 30px;
+}
 
 .footer {
     height: 290px;
