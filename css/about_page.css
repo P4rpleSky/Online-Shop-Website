@@ -14,6 +14,7 @@ button {
     font-size: 20px;
     color: #6C6867;
     background: transparent;
+    background-repeat: no-repeat;
 }
 
 button:hover {
@@ -26,9 +27,17 @@ button:hover {
     margin-bottom: 0;
 }
 
+.s2 {
+    font-size: 14px;
+    font-weight: regular;
+}
+
 .logo {
     margin-top: 33px;
     margin-bottom: 37px;
+    width: 143px;
+    height: 30px;
+    background-image: url("../img/logo.png");
 }
 
 .main_menu {
@@ -68,14 +77,38 @@ button:hover {
 }
 
 .buttons_menu {
-    margin-top: 34.5px;
+    margin-top: 36.5px;
     display: flex;
     justify-content: space-around;
 }
 
 .buttons_menu button {
-    height: 27px;
-    width: 39px;
+    height: 23px;
+    width: 23px;
+}
+
+.favourite {
+    background-image: url("../img/favourite.png");
+}
+
+.favourite:hover {
+    background-image: url("../img/favourite_hover.png");
+}
+
+.cart {
+    background-image: url("../img/cart.png");
+}
+
+.cart:hover {
+    background-image: url("../img/cart_hover.png");
+}
+
+.search {
+    background-image: url("../img/search.png");
+}
+
+.search:hover {
+    background-image: url("../img/search_hover.png");
 }
 
 .main-block {
