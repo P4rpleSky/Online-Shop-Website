@@ -1,0 +1,133 @@
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>About Us</title>
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;628&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="css/sign_up_in.css"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a class="logo" href="#"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <ui class="main_menu">
+                            <li><a class="s1" href="#">О нас</a></li>
+                            <li><a class="s1" href="#">Каталог</a>
+                                <ul>
+                                    <li><a class="s2" href="#">Крема</a></li>
+                                    <li><a class="s2" href="#">Сыворотки</a></li>
+                                    <li><a class="s2" href="#">Очищающие средства</a></li>
+                                    <li><a class="s2" href="#">Маски</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="s1" href="#">Доставка</a></li>
+                            <li><a class="s1" href="#">Контакты</a></li>
+                        </ui>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="buttons_menu">
+                            <a class="favourite" href="#"></a>
+                            <a class="cart" href="#"></a>
+                            <a class="search" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <div class="main-block">
+            <div class="sign-up">
+                <h2>Регистрация</h2>
+                <form>
+                    <p class="inp">
+                        <label class="s1" for="first_name">Имя</label><br />
+                        <input class="s1" type="text" placeholder="Акакий" id="first_name" />
+                        <div class="s3 warning">Имя введено в некорректном формате</div>
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="second_name">Фамилия</label><br />
+                        <input class="s1" type="text" placeholder="Акакиевич"
+                               id="second_name" />
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="phone">Телефон</label><br />
+                        <input class="s1" type="text" placeholder="(XXX)-XXX-XX-XX"
+                               id="phone" />
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="email">E-mail</label><br />
+                        <input class="s1" type="text" placeholder="user@gmail.com"
+                               id="email" />
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="password">Пароль</label><br />
+                        <input class="s1" type="password"
+                               id="password" />
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="password2">Повторите пароль</label><br />
+                        <input class="s1" type="password"
+                               id="password2" />
+                    </p>
+                    <p class="policy">
+                        <input class="s1" type="checkbox"
+                               id="confirm" />
+                        <a class="s3">Я принимаю политику конфиденциальности</a>
+                    </p>
+                    <input type="submit" class="page-button" value="Зарегистрироваться" />
+                </form>
+            </div>
+            <div class="sign-in">
+                <h2>Авторизация</h2>
+                <form>
+                    <p class="inp">
+                        <label class="s1" for="tel-or-email">E-mail или телефон</label><br />
+                        <input required class="s1" type="text" placeholder="user@gmail.com" 
+                        id="tel-or-email"/>
+                    </p>
+                    <p class="inp">
+                        <label class="s1" for="user-password">Пароль</label><br />
+                        <input required class="s1" type="password" 
+                        id="user-password"/>
+                    </p>
+                    <a class="s2">Создать аккаунт</a>
+                    <input type="submit" class="page-button" value="Войти на сайт"/>          
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/logo.png" alt="Marrubium" class="footer-center">
+                    </div>
+                    <div class="offset-md-1 col-md-2">
+                        <div class="footer-menu-1 flex-cont">
+                            <a href="#">О нас</a>
+                            <a href="#">Каталог</a>
+                            <a href="#">Контакты</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-menu-2 flex-cont">
+                            <a href="#">Доставка</a>
+                            <a href="#">Напишите нам</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="tel-number footer-center">
+                            <p class="tel">+7(999)999-99-99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
